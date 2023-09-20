@@ -1,6 +1,6 @@
 # Text Summarization with BART using Streamlit
 
-[![Streamlit](https://textsummarization-hqykwe4yz5cftfdcqxte3q.streamlit.app/)](https://streamlit.io/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://textsummarization-hqykwe4yz5cftfdcqxte3q.streamlit.app/)
 
 This is a Streamlit application for text summarization using the BART model. It allows you to generate a summary of a text with ease.
 
@@ -16,6 +16,15 @@ This is a Streamlit application for text summarization using the BART model. It 
 2. Adjust the number of beams, minimum length, and maximum length of the summary using the sliders.
 3. Click the Generate Summary button.
 4. The generated summary will be displayed in the Summary textbox.
+
+## Getting Started
+### Prerequisites
+- Before running the application, ensure you have the required Python libraries installed:
+  - pip install streamlit transformers
+
+## Running the Application
+- To run the Streamlit application, use the following command:
+  - streamlit run your_app.py
 
 ## Built With
 - **Streamlit** - The web framework used for creating interactive web applications in Python.
